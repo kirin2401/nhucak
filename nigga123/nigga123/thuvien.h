@@ -25,4 +25,5 @@ void sapxeplondenbe(Dayso&);
 void sapxepbedenlon(Dayso&);
 void insert(Dayso&, int, int);
 void remove(Dayso&, int);
+int binarysearch(Dayso&, int);
 //int timtuyentinh(Dayso, int);

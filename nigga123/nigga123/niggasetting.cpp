@@ -107,6 +107,26 @@ void remove(Dayso& l, int pos) {
 	}
 	l.n--;
 }
+
+int binarysearch(Dayso& l, int key) {
+	int start= 0, end = l.n = 1, mid;
+	while (start <= end) {
+		mid = (start + end) / 2;
+		if (l.ds[mid] == key)
+		{
+			return mid;
+		}
+		else if (l.ds[mid] < key)
+		{
+			start = mid + 1;
+		}
+		else
+		{
+			end = mid - 1;
+		}
+		return -1;
+	}
+}
 //void nhapsv(studen& a) {
 //	cout << "nhap mssv";
 //	cin >> a.Mssv;

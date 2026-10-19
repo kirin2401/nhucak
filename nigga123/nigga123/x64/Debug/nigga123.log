@@ -1,2 +1,5 @@
 ﻿  chuongtrinh.cpp
+  niggasetting.cpp
+  Generating Code...
+E:\nigga123\nigga123\niggasetting.cpp(129,1): warning C4715: 'binarysearch': not all control paths return a value
   nigga123.vcxproj -> E:\nigga123\x64\Debug\nigga123.exe
